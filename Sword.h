@@ -8,11 +8,13 @@ public:
     ~Sword();
 
     void print( ) const;
+    void retirar( );
 
 private:
 
     double strength;
     int durability;
+
 
 };
 
